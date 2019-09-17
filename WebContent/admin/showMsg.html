@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>提示</title>
+	<link rel="icon" type="image/x-icon" href="../image/header.ico" >
+	<link rel="stylesheet" type="text/css" href="../dist/css/bootstrap.min.css">
+	<script  src="../jquery.min.js"></script>
+	<script src="../dist/js/bootstrap.min.js"></script>
+	<style type="text/css">
+		*{
+			margin: 0px;
+			padding: 0px;
+		}
+      	.kuang{
+      		width: 40%;
+      		height: 350px;
+      		margin: 150px auto;
+      		border: solid 1px #1e64c8;
+      	}
+      	a{
+      		color: #1e64c8;
+      	}
+	</style>
+</head>
+<body>
+	<div class="kuang">
+		<h3 class="text-center">登陆失败！</h3>
+		</br>
+		<div class="glyphicon glyphicon-paste glyphicon glyphicon-alert text-center" style="width: 100%;height: 50px; font-size: 100px;"></div>
+		<hr>
+		<h4 class="text-center">请重新登陆管理员账号,系统将在3秒钟后自动跳转，如果不想等待，直接点击<a href="login.jsp">这里</a></h4>
+	</div>
+	<script language="javascript">
+		setTimeout("location.href='login.jsp';",3*1000);
+    </script> 
+</body>
+</html>
